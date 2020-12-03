@@ -392,7 +392,7 @@ var actionbardata = {"siteID":"186245391","siteName":"theitworld866638499.wordpr
 
 					$('body').append( $( 'div.wpcom-bubble' ).removeClass( 'fadein' ) ).off( 'click.bubble' );
 
-					var action = 'ab_unsubscribe_from_blog';
+
 				} else {
 					li.addClass( 'subscribed' ).removeClass( 'unfollow' );
 					link.html( "Following" );
@@ -411,7 +411,7 @@ var actionbardata = {"siteID":"186245391","siteName":"theitworld866638499.wordpr
 							setTimeout( hideBubble, 15000 );
 						}, 500 );
 
-					var action = 'ab_subscribe_to_blog';
+
 					$('#wp-admin-bar-follow > a').bind( 'mouseout.shift', function() {
 						doFollowingHover();
 						$(this).unbind( '.shift' );
